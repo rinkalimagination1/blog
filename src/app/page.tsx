@@ -106,7 +106,7 @@ export default function Home() {
 
         {/* <Text>Your application here</Text> */}
 
-        <div style={{ width: '100%', height: '100%', position: 'relative' }} className='grid grid-cols-2 space-x-[1.5px]'>
+        <div style={{ width: '100%', height: '100%', position: 'relative' }} className='grid grid-cols-2 space-x-[1px]'>
           <div>
             <Paper shadow="xs" p="xs" withBorder className='rounded-none'>
               <Container size="lg">
@@ -160,7 +160,7 @@ export default function Home() {
                     </Group>
                   </Card.Section>
 
-                  <Card.Section inheritPadding mt="sm" pb="md">
+                  <Card.Section inheritPadding mt="sm" pb="xl">
                     <SimpleGrid>
                       <Input.Description className='text-justify'>GPT-4 from OpenAI has borad general knowledge and domain expertise allowing it to follow
                         complex instructions in natural language and solve difficult problems accurately.</Input.Description>
@@ -293,7 +293,7 @@ export default function Home() {
                     </Group>
                   </Card.Section>
 
-                  <Card.Section inheritPadding mt="sm" pb="md">
+                  <Card.Section inheritPadding mt="sm" pb="xs">
                     <SimpleGrid>
                       <Input.Description className='text-justify'>OpenAI's most capable and cost effective model in the GPT-3.5 family optimized for chat
                         purposes,but also works well for traditional complaints tasks.</Input.Description>
