@@ -108,7 +108,7 @@ export default function Home() {
 
         <div style={{ width: '100%', height: '100%', position: 'relative' }} className='grid grid-cols-2 space-x-[1.5px]'>
           <div>
-            <Paper shadow="xs" p="xs" withBorder>
+            <Paper shadow="xs" p="xs" withBorder className='rounded-none'>
               <Container size="lg">
                 <Box>
                   <Card>
@@ -137,7 +137,7 @@ export default function Home() {
               </Container>
             </Paper>
             <ScrollArea h={500}>
-              <Box className='h-[700px] pt-[80px] pb-[80px] border border-gray-200'
+              <Box className='h-[700px] pt-[80px] pb-[80px] border border-gray-200 rounded-none'
                 sx={(theme) => ({
                   backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[1],
                   textAlign: 'center',
@@ -219,8 +219,8 @@ export default function Home() {
 
               </Box>
             </ScrollArea >
-            <Paper shadow="xs" p="md">
-              <Container size="lg" className='h-[100%] w-[100%]'>
+            <Paper shadow="xs" p="md" className='rounded-none'>
+              <Container size="lg" className='h-[100%] w-[100%] px-[10.5px]'>
 
                 <Textarea
                   className='w-full h-full-[100%]'
@@ -240,7 +240,7 @@ export default function Home() {
             </Paper>
           </div>
           <div>
-            <Paper shadow="xs" p="xs" withBorder>
+            <Paper shadow="xs" p="xs" withBorder className='rounded-none'>
               <Container size="lg">
                 <Box>
                   <Card>
@@ -269,7 +269,7 @@ export default function Home() {
               </Container>
             </Paper>
             <ScrollArea h={500}>
-              <Box className='h-[700px] pt-[80px] pb-[80px] border border-gray-200'
+              <Box className='h-[700px] pt-[80px] pb-[80px] border border-gray-200 rounded-none'
                 sx={(theme) => ({
                   backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[1],
                   textAlign: 'center',
@@ -352,8 +352,8 @@ export default function Home() {
                 </Card>
               </Box>
             </ScrollArea>
-            <Paper shadow="xs" p="md">
-              <Container size="lg" className='h-[100%] w-[100%]'>
+            <Paper shadow="xs" p="md" className='rounded-none'>
+              <Container size="lg" className='h-[100%] w-[100%] px-[10.5px]'>
 
                 <Textarea
                   className='w-full h-full-[100%]'
